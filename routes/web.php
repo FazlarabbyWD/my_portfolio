@@ -22,6 +22,7 @@ Route::get('/aboutData',[HomeController::class,'aboutData']);
 Route::get('/socialData',[HomeController::class,'socialData']);
 Route::post('/contactRequest',[ContactController::class,'contactRequest']);
 Route::get('/projectData',[ProjectsController::class,'projectData']);
+Route::get('/resumeLink',[ResumeController::class,'resumeLink']);
 Route::get('/experienceData',[ResumeController::class,'experienceData']);
 Route::get('/educationData',[ResumeController::class,'educationData']);
 Route::get('/skillData',[ResumeController::class,'skillData']);
